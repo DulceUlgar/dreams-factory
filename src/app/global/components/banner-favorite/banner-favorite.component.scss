@@ -1,7 +1,7 @@
 .banner-favorite-home {
     display: flex;
-    height: 300px;
-    width: 100%;
+    block-size: 300px;
+    inline-size: 100%;
     background-image: url(../../../../assets/images/banner.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
         font-family: 'Roboto', sans-serif;
         color: white;
         font-weight: bold;
-        margin-left: 5%;
+        margin-inline-start: 5%;
         font-size: 24px;
 
         .character-name{
@@ -20,13 +20,13 @@
     }
 
     .character-image img{
-        width: 200px;
+        inline-size: 200px;
         border-radius: 20px;
-        margin-left: 25%;
+        margin-inline-start: 25%;
     }
 }
 
-@media (max-width:480px){
+@media (max-inline-size:480px){
     .banner-home {
         display: none;
     }
